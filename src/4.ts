@@ -1,6 +1,5 @@
 import { createReadStream } from "fs";
 import { createInterface } from "readline";
-import { Letter } from "./types/Letter";
 
 function readInput() {
   const fileStream = createReadStream(`${__dirname}/4.input`);
